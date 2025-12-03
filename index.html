@@ -14,10 +14,14 @@
     <header class="site-header">
         <div class="container">
             <a class="logo" href="#hero" aria-label="Bharat Micro Lab">
-                <picture class="brand-mark brand-mark--dark">
-                    <source srcset="assets/img/logo.svg" type="image/svg+xml">
-                    <img src="assets/img/bharat-logo.png" alt="Bharat Micro Lab logo">
-                </picture>
+                <img
+                    class="brand-mark"
+                    src="assets/img/bharat-logo-dark.png"
+                    alt="Bharat Micro Lab logo"
+                    width="40"
+                    height="40"
+                    data-light-src="assets/img/bharat-logo.png"
+                    data-dark-src="assets/img/bharat-logo-dark.png">
                 <span>Bharat<strong>Micro</strong>Lab</span>
             </a>
             <nav class="site-nav">
@@ -49,10 +53,7 @@
                     </div>
                 </div>
                 <div class="hero-card">
-                    <picture class="brand-mark brand-mark--light hero-logo">
-                        <source srcset="assets/img/logo.svg" type="image/svg+xml">
-                        <img src="assets/img/bharat-logo.png" alt="Bharat Micro Lab crest">
-                    </picture>
+                    <img src="assets/img/bharat-logo.png" alt="Bharat Micro Lab crest" class="brand-mark hero-logo" width="90" height="90">
                     <h3>Why Bharat Micro Lab?</h3>
                     <ul>
                         <li>Academic rigor from Ph.D.-level research and peer-reviewed publications.</li>
@@ -258,10 +259,7 @@
                     <h2>Whether you are a student looking for mentorship, or an industry professional/company seeking consultancy — feel free to reach out.</h2>
                     <p>For academic mentoring, student projects, and industrial consulting — contact via email or WhatsApp. Responses usually arrive within two business days.</p>
                     <div class="contact-badge">
-                        <picture class="brand-mark brand-mark--light badge-mark">
-                            <source srcset="assets/img/logo.svg" type="image/svg+xml">
-                            <img src="assets/img/bharat-logo.png" alt="Bharat Micro Lab emblem">
-                        </picture>
+                        <img src="assets/img/bharat-logo.png" alt="Bharat Micro Lab emblem" class="brand-mark badge-mark" width="42" height="42">
                         <p>Trusted knowledge partner for campuses, labs, and shop floors.</p>
                     </div>
                     <div class="contact-info">
@@ -295,13 +293,17 @@
         </section>
     </main>
 
-    <footer class="site-footer">
+    <footer class="site-footer on-dark">
         <div class="container">
             <div class="footer-branding">
-                <picture class="brand-mark brand-mark--dark footer-mark">
-                    <source srcset="assets/img/logo.svg" type="image/svg+xml">
-                    <img src="assets/img/bharat-logo.png" alt="Bharat Micro Lab mark">
-                </picture>
+                <img
+                    class="brand-mark footer-mark"
+                    src="assets/img/bharat-logo-dark.png"
+                    alt="Bharat Micro Lab mark"
+                    width="32"
+                    height="32"
+                    data-light-src="assets/img/bharat-logo.png"
+                    data-dark-src="assets/img/bharat-logo-dark.png">
                 <p>© <span data-current-year></span> BharatMicroLab.com · Dr. Mohan Renge</p>
             </div>
             <div class="footer-links">
