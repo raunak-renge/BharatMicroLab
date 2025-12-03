@@ -13,7 +13,10 @@
 <body>
     <header class="site-header">
         <div class="container">
-            <div class="logo">Bharat<span>Micro</span>Lab</div>
+            <a class="logo" href="#hero" aria-label="Bharat Micro Lab">
+                <img src="assets/img/bharat-logo.png" alt="Bharat Micro Lab logo">
+                <span>Bharat<strong>Micro</strong>Lab</span>
+            </a>
             <nav class="site-nav">
                 <a href="#about">About</a>
                 <a href="#expertise">Expertise</a>
@@ -43,6 +46,7 @@
                     </div>
                 </div>
                 <div class="hero-card">
+                    <img src="assets/img/bharat-logo.png" alt="Bharat Micro Lab crest" class="hero-logo">
                     <h3>Why Bharat Micro Lab?</h3>
                     <ul>
                         <li>Academic rigor from Ph.D.-level research and peer-reviewed publications.</li>
@@ -247,6 +251,10 @@
                     <p class="eyebrow">Contact & WhatsApp</p>
                     <h2>Whether you are a student looking for mentorship, or an industry professional/company seeking consultancy — feel free to reach out.</h2>
                     <p>For academic mentoring, student projects, and industrial consulting — contact via email or WhatsApp. Responses usually arrive within two business days.</p>
+                    <div class="contact-badge">
+                        <img src="assets/img/bharat-logo.png" alt="Bharat Micro Lab emblem">
+                        <p>Trusted knowledge partner for campuses, labs, and shop floors.</p>
+                    </div>
                     <div class="contact-info">
                         <p><strong>Email:</strong> <a href="mailto:contact@bharatmicrolab.com">contact@bharatmicrolab.com</a></p>
                         <p><strong>Phone:</strong> +91 98220 12345</p>
@@ -280,7 +288,10 @@
 
     <footer class="site-footer">
         <div class="container">
-            <p>© <span id="year"></span> BharatMicroLab.com · Dr. Mohan Renge</p>
+            <div class="footer-branding">
+                <img src="assets/img/bharat-logo.png" alt="Bharat Micro Lab mark">
+                <p>© <span data-current-year></span> BharatMicroLab.com · Dr. Mohan Renge</p>
+            </div>
             <div class="footer-links">
                 <a href="#hero">Back to top</a>
                 <a href="mailto:contact@bharatmicrolab.com">Email</a>
@@ -293,11 +304,6 @@
         <span>WhatsApp</span>
     </a>
 
-    <script>
-        const yearEl = document.getElementById('year');
-        if (yearEl) {
-            yearEl.textContent = new Date().getFullYear();
-        }
-    </script>
+    <script src="assets/js/main.js" defer></script>
 </body>
 </html>
